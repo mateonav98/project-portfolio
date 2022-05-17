@@ -16,16 +16,16 @@
         <nav class="nav nav-pills nav-fill navbar bg-info">
             <a href="/" id="bg-custom" class="nav-item text-white nav-link">Home</a>
             <a href="/" id="bg-custom" class="nav-item text-white nav-link">About Me</a>
-            <a href="/" id="bg-custom" class="nav-item text-white nav-link">Projects</a>
+            <a href=".projects" id="bg-custom" class="nav-item text-white nav-link">Projects</a>
             <a href="images/resume5_16_22.pdf" id="bg-custom" class="nav-item text-white nav-link">Resume</a>
             <a href="/" id="bg-custom" class="nav-item text-white nav-link">Contact Me</a>
         </nav>
     </section>
     <br>
-    <br>
-    <div class="media container bg-info">
-        <img src="images/self.jpg" class="responsive-img circle " alt="profile pic of mateo" width="35%" height="35%">
-        <div class="media-body container-fluid bg-info text-white  col-md-12" width="100%">
+    <div class="media container bg-info" style="width: 100%">
+        <img src="images/self.jpg" class="responsive-img circle " alt="profile pic of mateo" width="30%" height="30%">
+        <div class="media-body container-fluid bg-info text-white  col-md-12" style="width: 50px" width="100%">
+            <br>
             <h3 class="mt-0">About Me</h3>
             <p>Hi, I'm Mateo and welcome to my portfolio page.</p>
 
@@ -35,57 +35,72 @@
             <p>I am UC San Diego graduate with a B.S. in Cognitive Neuroscience. Currently a full time student at UC
                 Berkeley Extension working to become a Full Stack Web Developer.</p>
             <p>Skills:</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Express</li>
-                <li>Node</li>
-                <li>REST API's</li>
-                <li>Handlebars</li>
-            </ul>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="row">HTML</th>
+                        <th scope="row">CSS</th >
+                        <th scope="row">Javascript</th>
+                        <th scope="row">Express</th>
+                        <th scope="row">Node</th>
+                        <th scope="row">SQL</th>
+                        <th scope="row">REST API's</th>
+                        <th scope="row">Handlebars</th>
+                    </tr>
+                </thead>
+            </table>
         </div>
+
     </div>
     <br>
+    <h3 class="mt-0 projects bg-info center">Projects</h3>
+    <div class="row">
+        <div class="card" style="width: 33%;">
+            <img src="images/bookspot-demo.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Book Spot</h5>
+                <p class="card-text">This application allows user to search books by title, author, genre and more. Each
+                    book will be accompanied by the cover, author, description and published date. User can save their
+                    favorite books to their profile they like and leave a review</p>
+                <a href="https://aqueous-plateau-74718.herokuapp.com/" target="_blank"
+                    class="btn btn-primary bg-info">Application</a>
+                <a href="https://github.com/mateonav98/book-spot" target="_blank" class="btn btn-primary bg-info">GitHub
+                    Repo</a>
+            </div>
+        </div>
+        <div class="card" style="width: 33%;">
+            <img src="images/get-unbored-overview.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Get Unbored</h5>
+                <p class="card-text">Use this website to get unbored! Not sure what to do with your day off? Randomly
+                    generate an activity to do! Need a laugh? Get a joke about Chuck Norris. This app will randomly
+                    generate
+                    jokes and activities so that you are never bored. Save your favorites jokes and activities with our
+                    like
+                    button and access them in your favorites page.</p>
+                <a href="https://17keerti.github.io/get-unbored/" target="_blank"
+                    class="btn btn-primary bg-info">Application</a>
+                <a href="https://github.com/17keerti/get-unbored" target="_blank" class="btn btn-primary bg-info">GitHub
+                    Repo</a>
+            </div>
+        </div>
+        <div class="card" style="width: 33%;">
+            <img src="images/notes-app.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Note Taker</h5>
+                <p class="card-text">This application allows users to write notes and save them.</p>
+                <a href="https://blooming-wave-42021.herokuapp.com/" target="_blank"
+                    class="btn btn-primary bg-info">Application</a>
+                <a href="https://github.com/mateonav98/note-taker" target="_blank"
+                    class="btn btn-primary bg-info">GitHub
+                    Repo</a>
+            </div>
+        </div>
+    </div>
+    <h3 class="mt-0 contactMe center">Contact Me</h3>
+
     <div>
-    <div class="card" style="width: 33%;">
-        <img src="images/bookspot-demo.gif" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Book Spot</h5>
-            <p class="card-text">This application allows user to search books by title, author, genre and more. Each
-                book will be accompanied by the cover, author, description and published date. User can save their
-                favorite books to their profile they like and leave a review</p>
-            <a href="https://aqueous-plateau-74718.herokuapp.com/" target="_blank"
-                class="btn btn-primary bg-info">Application</a>
-            <a href="https://github.com/mateonav98/book-spot" target="_blank" class="btn btn-primary bg-info">GitHub
-                Repo</a>
-        </div>
-    </div>
-    <div class="card" style="width: 33%;">
-        <img src="images/get-unbored-overview.gif" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Get Unbored</h5>
-            <p class="card-text">Use this website to get unbored! Not sure what to do with your day off? Randomly
-                generate an activity to do! Need a laugh? Get a joke about Chuck Norris. This app will randomly generate
-                jokes and activities so that you are never bored. Save your favorites jokes and activities with our like
-                button and access them in your favorites page.</p>
-            <a href="https://17keerti.github.io/get-unbored/" target="_blank"
-                class="btn btn-primary bg-info">Application</a>
-            <a href="https://github.com/17keerti/get-unbored" target="_blank" class="btn btn-primary bg-info">GitHub
-                Repo</a>
-        </div>
-    </div>
-    <div class="card" style="width: 33%;">
-        <img src="images/notes-app.gif" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Note Taker</h5>
-            <p class="card-text">This application allows users to write notes and save them.</p>
-            <a href="https://blooming-wave-42021.herokuapp.com/" target="_blank"
-                class="btn btn-primary bg-info">Application</a>
-            <a href="https://github.com/mateonav98/note-taker" target="_blank" class="btn btn-primary bg-info">GitHub
-                Repo</a>
-        </div>
-    </div>
+
     </div>
 
 
